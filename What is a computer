@@ -1,0 +1,12 @@
+*Combination of cleverly connected switches.
+*Vaccum tube:- Its a switch which is either on or off.  Its a electric switch.
+*Transistor were used after vaccum tubes as switches as they are made in microscopic form.
+*Transistors-> Gates(And,Or,Not,Xor)
+*Adders-When you two 1/2 adders you get a complete adder(8 bit adder).
+* Von Neuman Architecture- All modern machines are build using this architecture.
+
+Operating system
+* What is it?
+->manage resources
+Multi Processing
+->program thats incharge of other programs and that is called operating system
