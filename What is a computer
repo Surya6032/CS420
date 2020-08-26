@@ -10,3 +10,44 @@ Operating system
 ->manage resources
 Multi Processing
 ->program thats incharge of other programs and that is called operating system
+
+
+OS provides layers of abstraction.
+
+Computing metaphors:-
+I)Resource Manager-> Appearance of multiprocessing
+                      *more than one program "simultaneosly"
+                      *Processor does one instruction at one time.
+What Resource?
+* Memory(as we don't have enough memory) <-------------------Loads and unloads as program becomes inactive
+*Disks-Communication
+Thread: Unit of computation processing
+II) Bridge
+
+End 1 <------------> End 2
+       loop
+Hardware <-------------> User Interface
+-Has its own             C++
+ language
+  ->bits
+ * Drivers are used to create a bridge between user interface and hardware
+ 
+ 
+ Organization of OS's
+ - 2 main components
+ Kernel               User Space
+ (defition read)      Non Priviliged   
+ Priviliged
+ And non priviliged
+ 
+ Priviliged Instruction
+ -> CPU instructions deals with
+     -Device management
+     -CPU registers(state)
+     
+ Interacting with an OS
+ G.U.I's
+ Command line
+ 
+ Shell-Program that waits for command from the user-->for OS to processed
+ 
