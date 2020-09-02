@@ -1,0 +1,41 @@
+*Process Concept:-An abstraction og a running program.
+"Resource Management"<---OS----> more than one program is currently running.
+
+-Swapping between processes.
+-Scopping:- 10ms or 100ms
+-Architecture:-Impacts OS efficiency(It makes one OS from other)
+-Process Control Block(PCB's)
+*Data Structure that OS uses to keep track of each process.
+*Swapping is Unpredicatable from the perspective of the program.
+Scheduling:
+->Trigger Rev
+  -LACK OF RESOURCE
+  -Priority
+Process vs Program
+-Process is a running program on the machine.
+-Program is a series of instruction
+
+
+Examples
+
+Windows                                     Unix-related(OS)
+Create Process                                BSD----(Max OS)
+                                              Linux
+                                              fork()(Keep track of parent and child process)
+                                              (fork makes a copy of process and runs it)
+Shell
+->command,packages,flags[Fork execute]
+
+Process States and Transition
+1)ready State<-----------------------------
+2)Running State------   <-----------|     |
+                    | Request Resource    |
+                    |                     |
+3)Block state <------        --------------
+
+Why Processes
+-Because abstraction
+
+Multiple processes are connected to a virtual CPU and the virtual CPU is connected to a CPU.
+
+
