@@ -41,3 +41,11 @@ Multiple processes are connected to a virtual CPU and the virtual CPU is connect
 "Listless" implementation
 
 ** 2.4-2.6 **
+-> Where do processes comes from
+  *Bootstrapping
+  -> Hardware can run a program(boot loader) to start loading the OS(process).
+-> R.C.B
+  * Resource Description                                                                                                                    
+  * Availability------------------------------------------------------------->*Atomic   *Multiport(Multiple process can be served at once)
+  * wait list->list of pointers of PCB's(array)
+  
