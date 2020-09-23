@@ -89,4 +89,5 @@ Multiple processes are connected to a virtual CPU and the virtual CPU is connect
  ### Earliest Deadline First(EDF)
  #### Shorter the remaining time, higher the priority
  
+ **Feasable - Deadline for all processes can be met.
  
