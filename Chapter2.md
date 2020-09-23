@@ -63,10 +63,10 @@ Multiple processes are connected to a virtual CPU and the virtual CPU is connect
   
   ### Trade of balance throughput & quanta size
   #### Interactive Processes
-      > - Recieve process
-      > - process
-      > - respond proces
-      Larger Quanta and Small quant
+  > - Recieve process
+  > - process
+  > - respond proces
+  Larger Quanta and Small quant
  #Context Switching(Expansive)
  - Takes a sgnified amount of fine
  
@@ -80,4 +80,5 @@ Multiple processes are connected to a virtual CPU and the virtual CPU is connect
  ##### done within a deadline
  > - airplane(fly-by-wire) and also cars(drive by wire)
  > - Streaming video or teleconference
- > - 
+ > - Period 
+ > - runtime
