@@ -82,3 +82,11 @@ Multiple processes are connected to a virtual CPU and the virtual CPU is connect
  > - Streaming video or teleconference
  > - Period 
  > - runtime
+ 
+ ### Rate Monotonic Scheduling
+ #### shorter the period, higher the priority
+ 
+ ### Earliest Deadline First(EDF)
+ #### Shorter the remaining time, higher the priority
+ 
+ 
