@@ -72,3 +72,12 @@ Multiple processes are connected to a virtual CPU and the virtual CPU is connect
  
  #### Worst case Scenario
  
+ #### Large Quantum
+ > - Size quantum increases
+ 
+ 
+ #### Real Time Processes
+ ##### done within a deadline
+ > - airplane(fly-by-wire) and also cars(drive by wire)
+ > - Streaming video or teleconference
+ > - 
