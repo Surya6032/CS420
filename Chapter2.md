@@ -49,3 +49,6 @@ Multiple processes are connected to a virtual CPU and the virtual CPU is connect
   * Availability------------------------------------------------------------->*Atomic   *Multiport(Multiple process can be served at once)
   * wait list->list of pointers of PCB's(array)
   
+  Scheduling
+  -
+  
