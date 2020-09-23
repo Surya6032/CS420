@@ -1,4 +1,4 @@
-** Process Concept ** :-An abstraction og a running program.
+### Process Concept :-An abstraction og a running program.
 "Resource Management"<---OS----> more than one program is currently running.
 
 -Swapping between processes.
@@ -50,5 +50,8 @@ Multiple processes are connected to a virtual CPU and the virtual CPU is connect
   * wait list->list of pointers of PCB's(array)
   
  #### Round Robin scheduling
+ "Taking turns"
+ ![Drag Racing](https://media.geeksforgeeks.org/wp-content/uploads/round-robin-1.jpg)
+ #### Multi level scheduling algorithm
  
   
