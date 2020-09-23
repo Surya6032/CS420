@@ -61,3 +61,14 @@ Multiple processes are connected to a virtual CPU and the virtual CPU is connect
   > - Between prority
   > - not saturation
   
+  ### Trade of balance throughput & quanta size
+  #### Interactive Processes
+      > - Recieve process
+      > - process
+      > - respond proces
+      Larger Quanta and Small quant
+ #Context Switching(Expansive)
+ - Takes a sgnified amount of fine
+ 
+ #### Worst case Scenario
+ 
