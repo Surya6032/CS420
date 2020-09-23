@@ -90,4 +90,4 @@ Multiple processes are connected to a virtual CPU and the virtual CPU is connect
  #### Shorter the remaining time, higher the priority
  
  **Feasable - Deadline for all processes can be met.**
- 
+ **3.5 Read**
