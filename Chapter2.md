@@ -55,5 +55,9 @@ Multiple processes are connected to a virtual CPU and the virtual CPU is connect
  #### Multi level scheduling algorithm
   ![](https://media.geeksforgeeks.org/wp-content/uploads/multilevel-queue-schedueling-1-300x217.png)
  
- 
+ #### Multilevel Feedback Scheduling
+  ![](https://media.geeksforgeeks.org/wp-content/uploads/Multilevel-Feedback-Queue-Scheduling-300x269.png)
+  Balance 
+  > - Between prority
+  > - not saturation
   
