@@ -46,9 +46,16 @@ Transitions that affect resource allocation graph
 - Safe State
 #### Deadlock detection                    
 -  Graph Reduction                          
-  *Select and Unblocked Process             
-  *Remove that Process
+  * Select and Unblocked Process             
+  * Remove that Process
     - Remove all aquisation
     - if any reqests can be filled do so
- 
+#### Throrem 1: State S is deadlock if resoucrce graph not completely reducible
+#### Theorem 2: All state 
 
+#### Continuos deadlock detection
+Facts
+- If the current state S is not deadlock 
+  Then: Next state is deadlock only if 
+    1) The operation that caused S ---> S' was a request
+    2) must be that the requesting process is now involved in deadlock
