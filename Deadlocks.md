@@ -51,7 +51,7 @@ Transitions that affect resource allocation graph
     - Remove all aquisation
     - if any reqests can be filled do so
 #### Throrem 1: State S is deadlock if resoucrce graph not completely reducible
-#### Theorem 2: All state 
+#### Theorem 2: All reduction sequences of a given resource allocation graph lead to the same final graph.
 
 #### Continuos deadlock detection
 Facts
@@ -62,3 +62,9 @@ Facts
 - If the recent transition was a request
   1) only possible to have a deadlock if the requesting process is involved .
     Sufficient to graph reduce. ONLY until p is reduced
+    
+#### Deadlock avoidance
+  - all processes report on "Maximum claim"
+  - "resource allocation graph" 
+  - "resource allocation matrices"
+  
