@@ -25,5 +25,5 @@ Pl                                    p2
 ![Image of allcation](https://media.geeksforgeeks.org/wp-content/uploads/Slide6-1.jpg)
 
 
-![Image](https://drive.google.com/file/d/1nFxtDCYtB3cfD0-SpaVk2nHldZWP7ki7/view?usp=sharing)
+![Image](https://drive.google.com/file/d/1nFxtDCYtB3cfD0-SpaVk2nHldZWP7ki7/view)
 
