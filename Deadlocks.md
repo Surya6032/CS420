@@ -25,5 +25,15 @@ Pl                                    p2
 ![Image of allcation](https://media.geeksforgeeks.org/wp-content/uploads/Slide6-1.jpg)
 
 
-![Image](https://drive.google.com/file/d/1nFxtDCYtB3cfD0-SpaVk2nHldZWP7ki7/view)
+Transitions that affect resource allocation graph
+1. Request Resource 
+  - only if not already blocked
+  -Never req more resource than exist
+2. Resource acquisition 
+  - only allocated one resource at a time
+3. Release a resource
+  - must be running to release a resource
+  - cannot release more resources than I was acquired
+ 
+ 
 
