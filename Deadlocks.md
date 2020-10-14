@@ -41,10 +41,12 @@ Transitions that affect resource allocation graph
 3. Avoid Deadlocks
 4. Prevent Deadlocks
   -> Toddling 1 of the 4 requirements
-  
-#### Deadlock detection                     System States
--  Graph Reduction                          - Deadlocked State
-  *Select and Unblocked Process             - Safe State
+####  System States
+- Deadlocked State
+- Safe State
+#### Deadlock detection                    
+-  Graph Reduction                          
+  *Select and Unblocked Process             
   *Remove that Process
     - Remove all aquisation
     - if any reqests can be filled do so
