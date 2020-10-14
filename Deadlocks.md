@@ -35,5 +35,18 @@ Transitions that affect resource allocation graph
   - must be running to release a resource
   - cannot release more resources than I was acquired
  
+#### Strategies:
+1. Ignore the problem
+2. Detect a deadlock - Recover
+3. Avoid Deadlocks
+4. Prevent Deadlocks
+  -> Toddling 1 of the 4 requirements
+  
+#### Deadlock detection                     System States
+-  Graph Reduction                          - Deadlocked State
+  *Select and Unblocked Process             - Safe State
+  *Remove that Process
+    - Remove all aquisation
+    - if any reqests can be filled do so
  
 
