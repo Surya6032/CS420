@@ -59,3 +59,6 @@ Facts
   Then: Next state is deadlock only if 
     1) The operation that caused S ---> S' was a request
     2) must be that the requesting process is now involved in deadlock
+- If the recent transition was a request
+  1) only possible to have a deadlock if the requesting process is involved .
+    Sufficient to graph reduce. ONLY until p is reduced
