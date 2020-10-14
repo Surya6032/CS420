@@ -68,3 +68,7 @@ Facts
   - "resource allocation graph" 
   - "resource allocation matrices"
   
+  - Process needs to know max resource its gonna ask for
+  - Assumes:
+    - States set of process
+  
