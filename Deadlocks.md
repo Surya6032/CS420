@@ -71,4 +71,49 @@ Facts
   - Process needs to know max resource its gonna ask for
   - Assumes:
     - States set of process
+- no silver bullet to prevent deadlocks
+- Prevent deadlocks
+  - 4 requirements
+      1. Mutual Exclusion - Synchronize access to resources
+      2. Circular wait    - force process to only request resources in 
+      3. Hold and wait    - Acquire some resources and wait for the others
+      4. No Prevention    - 
   
+### Memory Management
+"memory" - 2 kinds of things
+  - Physcial memory
+  - logical memory
+#### Physical Memory
+  - RAM(Random access Memory)
+  - Physical Addresses 
+      0 ----- n-1 -> n is the size of word(Word is smallest chunk of addressable memory which is 4 bytes)
+  - fast 
+  - confined
+  - expensive
+  - volatile
+  
+#### Logical memory
+      - Slow
+      - less expensive
+      - less confined
+      - persistent
+      
+Transforamtions: 
+classImp.cpp-------->class.h<-------main.cpp
+
+- g++-c main.cpp ----------> main.o    (object Modules)
+- g++-c classImp.cpp-------> classImp.o(Object Modules)
+- g++ main.o classImp.o
+  |    ("linking")
+  |---> a.out 
+
+#### Address Binding
+  - Static Relocation
+      - loader directly updates all logical
+        address to physical address.
+      - update whole thing before executing
+      
+  - Dynamic Relocation
+      - requirs hardware assistance
+        - needs dedicated register- store the physical address.
+        
