@@ -125,5 +125,12 @@ classImp.cpp-------->class.h<-------main.cpp
       OS must find an appropriate hole(s) for each incoming program
       OS also needs to work to prevent fragmentation
       memory becomes a collection of increasingly smaller hole
+      Different Strategies
+      - First-fit - from beginning allocate first hole big enough
+      - Next-fit - start each search at point of last allocation
+      - Best-fit - search entire list and choose smallest hole large enough
+      - Worst-fit - always choose the largest available hole
+                    seems dumb BUT we actually want large holes left over after allocation
+
 
         
