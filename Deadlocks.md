@@ -116,4 +116,14 @@ classImp.cpp-------->class.h<-------main.cpp
   - Dynamic Relocation
       - requirs hardware assistance
         - needs dedicated register- store the physical address.
+  
+ ### Free Space management
+      programs are moved into and out of physical memory (RAM)
+      creates a checkerboard overtime of open and used memory
+      the OS uses a linked list to keep track of memory holes
+      places in memory that are available
+      OS must find an appropriate hole(s) for each incoming program
+      OS also needs to work to prevent fragmentation
+      memory becomes a collection of increasingly smaller hole
+
         
